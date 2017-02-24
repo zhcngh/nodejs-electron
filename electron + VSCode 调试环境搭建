@@ -1,5 +1,5 @@
  
- 通过官方quick-start demo来模拟项目
+ #通过官方quick-start demo来模拟项目
  ## 1.安装项目   
       git clone https://github.com/electron/electron-quick-start
       cd electron-quick-start
@@ -14,7 +14,7 @@
       npm install gulp
       
  ## 4. 新建一个gulpfile.js文件
-        `
+        ```
           // 获取依赖
           var gulp = require('gulp'), 
             childProcess = require('child_process'), 
@@ -23,7 +23,7 @@
           gulp.task('run', function () { 
             childProcess.spawn(electron, ['.'], { stdio: 'inherit' }); 
           });
-        `
+        ```
         使用命令 gulp run 应该是可以跑起来程序的
  ## 5. 在.VSCode文件夹中新建一个tasks.json文件
       `
