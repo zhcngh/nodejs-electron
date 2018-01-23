@@ -1,2 +1,2 @@
 # nodejs-electron   vscode debug
-electron
+electron vscode 调试环境搭建
